@@ -17,7 +17,7 @@ export default class TodoApp extends React.Component {
 
     return (
       <div>
-        <h1>★じゃけぇTODOver2★</h1>
+        <h1>★じゃけぇTODO★</h1>
         <InputForm addTodo={this.addTodo} />
         <TodoList todos={todos} deleteTodo={this.deleteTodo} />
       </div>
